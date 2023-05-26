@@ -1,0 +1,19 @@
+h1{
+    font-size: 38px;
+    color: black;
+    text-align: center;
+
+    
+}
+div{
+    background-color: #34495e;
+    padding: 21px;
+    border-radius: 20px;
+    color: white;   
+}
+h3{
+    color: black;
+}
+img{
+    width: 500px;
+}
