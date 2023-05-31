@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item{
+    width: 200px;
+    height: 200px;
+}
+.item-1{
+    background-color: red;
+    z-index: 1;
+}
+.item-2{
+   background-color: green;
+   position: absolute;
+   left: 60px;
+   top: 60px;
+   z-index: 0;
+   transition: 3s;
+
+}
+.item-2:hover{
+    transform: scale(1.5) rotate(-45deg);
+}
+.item-3{
+    background-color: blue;
+    position: absolute;
+    left: 120px;
+    top: 120px;
+    z-index: -2;
+}
